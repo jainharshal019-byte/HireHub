@@ -3,12 +3,18 @@
 use Framework\Session;
 ?>
 
-<header class="bg-blue-900 text-white p-4">
+<header class="bg-blue-900 text-white p-4 site-header">
     <div class="container mx-auto flex justify-between items-center">
-        <h1 class="text-3xl font-semibold">
-            <a href="/">HireHub</a>
+        <h1 class="text-3xl font-semibold brand-title">
+            <a href="/" class="brand-link">
+                <i class="fa-brands fa-hackerrank fa-float"></i>
+                <span>HireHub</span>
+            </a>
         </h1>
-        <nav class="space-x-4">
+        <nav class="space-x-4 nav-actions">
+            <button type="button" class="theme-toggle" aria-label="Toggle night mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
             <?php if (Session::has('user')) : ?>
                 <div class="flex justify-between items-center gap-4">
                     <div class="text-blue-500">
