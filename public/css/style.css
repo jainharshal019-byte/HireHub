@@ -1020,6 +1020,16 @@ body {
   transform: translateY(-1px);
 }
 
+.career-banner {
+  background: #083344;
+  border-block: 1px solid rgba(34, 211, 238, 0.2);
+}
+
+.career-banner-title {
+  color: #22d3ee;
+  text-shadow: 0 0 16px rgba(34, 211, 238, 0.35);
+}
+
 .night-mode {
   background: #07111f;
   color: #e5e7eb;
@@ -1028,6 +1038,16 @@ body {
 .night-mode .site-header {
   background: #020617;
   border-bottom-color: rgba(148, 163, 184, 0.25);
+}
+
+.night-mode .career-banner {
+  background: #020617;
+  border-block-color: rgba(34, 211, 238, 0.28);
+}
+
+.night-mode .career-banner-title {
+  color: #67e8f9;
+  text-shadow: 0 0 18px rgba(103, 232, 249, 0.45);
 }
 
 .night-mode .bg-white {
