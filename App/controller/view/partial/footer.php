@@ -1,3 +1,12 @@
+<footer class="site-footer">
+    <div class="container mx-auto">
+        <span class="site-footer-brand">
+            <i class="fa-brands fa-hackerrank"></i>
+            HireHub
+        </span>
+    </div>
+</footer>
+
 <script>
     const themeToggle = document.querySelector('.theme-toggle');
     const savedTheme = localStorage.getItem('hirehub-theme');
